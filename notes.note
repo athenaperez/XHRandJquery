@@ -1,0 +1,17 @@
+JSON
+-is just a big object
+-no comments in JSON file
+-the only valuse you can pass:
+--strings "one"
+--other objects
+--object literals
+--buleons
+--arrays
+
+
+
+ex:
+{
+    "messages": []
+    ^^^key of messages: value of array
+}

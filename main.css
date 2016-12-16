@@ -1,0 +1,102 @@
+body {
+	text-align: center;
+	font-family: sans-serif;
+	color: orange;
+
+
+
+}
+.wrapper{
+  margin:0 auto;
+  width:600px;
+  height:300px;
+  border-bottom:30px solid #D0D102;
+  margin-top: 30%;
+}
+.clear{
+  clear:both;
+}
+.left_wall{
+  float:left;
+  width:30px;
+  height:100px;
+  background:#61AE24;
+  -webkit-animation:left-wall 3s infinite;
+
+}
+.right_wall{
+  float:right;
+  width:30px;
+  height:100px;
+  background:#61AE24;
+  -webkit-animation:right-wall 3s infinite;
+
+}
+.ball{
+  float:left;
+  width:50px;
+  height:50px;
+  background:#F18D05;
+  border-radius:50%;
+  margin-top:30px;
+  -webkit-animation:bounce_ball 3s linear infinite;
+}
+@-webkit-keyframes left-wall{
+  0% {margin-top:0px;}
+  25%{margin-top:200px}
+  100%{margin-top:0px}
+
+}
+@-webkit-keyframes right-wall{
+  0% {margin-top:200px;}
+
+  50%{margin-top:0px}
+  100%{margin-top:200px}
+
+}
+@-webkit-keyframes bounce_ball{
+  0% {margin-top:30px;}
+  25%{margin-left:250px;margin-top:252px}
+  50%{margin-left:490px;margin-top:30px;}
+  75%{margin-left:250px;margin-top:252px}
+  100%{margin-left:0px;margin-top:30px}
+
+}
+
+
+h1 {
+	text-shadow: 2px 2px 2px black;
+	font-size: 2em;
+}
+
+
+#steve {
+	display: inline-block;
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	font-size: 2em;
+	font-weight: bolder;
+	color: #e6e600;
+	text-shadow: 1px 1px 1px black;
+}
+
+#joe {
+	display: inline-block;
+	float: right;
+	margin-top: 5%;
+	margin-right: 5%;
+	font-size: 2em;
+	font-weight: bolder;
+	color: #e6e600;
+	text-shadow: 1px 1px 1px black;
+}
+
+#output-div {
+	text-shadow: .5px .5px .5px grey;
+  color: black;
+}
+
+#messageDivs {
+	margin: 1%;
+}
